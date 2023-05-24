@@ -1,10 +1,16 @@
 .list-card {
-  border: 1px solid black;
+  // border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 150px;
+  background-position: center;
+  margin: 4px;
   .list-name {
     text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
   }
 }
