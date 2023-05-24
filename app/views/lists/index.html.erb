@@ -1,8 +1,12 @@
 <%= render 'navbar' %>
 <%= render 'banner' %>
 <div class="container">
-  <h1>Lists</h1>
+  <h1>My list</h1>
+    <div class="row ">
   <% @lists.each do |list| %>
-    <p><%= link_to list.name, list_path(list) %></p>
+      <div class="col-12 col-md-6 col-lg-4 list-card">
+        <%= link_to list.name, list_path(list), class: 'list-name' %>
+      </div>
   <% end %>
+    </div>
 </div>

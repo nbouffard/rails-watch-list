@@ -1,0 +1,10 @@
+.list-card {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  .list-name {
+    text-decoration: none;
+  }
+}
