@@ -5,7 +5,6 @@
     <div class="col">
       <% @list.bookmarks.each do |m| %>
         <div class="card" style="width: 18rem;">
-          <%= image_tag (m.movie.poster_url), class: 'card-img-top' %>
           <div class="card-body">
             <h5 class='class-title'><%= m.movie.title %></h5>
             <p class='card-text'><%= m.movie.overview %></p>
