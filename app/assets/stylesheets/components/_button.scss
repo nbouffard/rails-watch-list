@@ -1,0 +1,15 @@
+.btn-green {
+  background-color: rgb(2, 202, 2);
+  // background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  padding: 0 6px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: white;
+  &:hover {
+    text-decoration: underline;
+    color: white;
+  }
+}
